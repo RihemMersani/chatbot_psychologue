@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bienvenue – Psychologue IA</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('/static/image.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .overlay {
+      background-color: rgba(88, 83, 83, 0.6);
+      border-radius: 20px;
+      padding: 40px 60px;
+      text-align: center;
+      color: white;
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ff914d;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #ff7b26;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Psychologue IA</h1>
+    <p>Nous sommes là pour vous écouter et vous accompagner.</p>
+    <a href="/chatbot" class="button">Passer au chatbot</a>
+  </div>
+</body>
+</html>
