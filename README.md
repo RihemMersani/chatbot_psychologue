@@ -19,17 +19,17 @@ Il analyse les émotions exprimées par l'utilisateur et génère des réponses 
 
 mon_chatbot_psy/
 │
-├── app.py # Application Flask principale
+├── app.py                     # Application Flask principale
 │
 ├── static/
-│ ├── image.png # Image d'arrière-plan page d'accueil
-│ └── image2.png # Image d'arrière-plan chatbot
+│ ├── image.png                # Image d'arrière-plan page d'accueil
+│ └── image2.png               # Image d'arrière-plan chatbot
 │
 ├── templates/
-│ ├── landing.html # Page d'accueil
-│ └── index.html # Page du chatbot
+│ ├── landing.html             # Page d'accueil
+│ └── index.html               # Page du chatbot
 │
-└── README.md 
+└── README.md                  # Documentation
 
 ## 🛠️ Technologies utilisées
 
